@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  /* font-family: "Source Sans Pro", sans-serif; */
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/*sizing of map container*/
+.leaflet-container{
+  height: 70vh
+}
+
